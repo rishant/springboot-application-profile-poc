@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: spring-profile-poc
+
+smpp:
+  host: localhost
+  port: 2775
+#  systemId: smppclient1
+#  password: password
+  systemId: ${systemId}
+  password: ${password}
+  enquireLinkTimer: 30000
+  transactionTimer: 30000
