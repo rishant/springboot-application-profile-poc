@@ -1,0 +1,8 @@
+
+smpp:
+  host: localhost
+  port: 2775
+  systemId: smppclientProd
+  password: passwordProd
+  enquireLinkTimer: 30000
+  transactionTimer: 30000
